@@ -8,4 +8,4 @@ export AWS_BUCKET=arn:aws:s3:::mybucket627818603677
 export AWS_REGION=us-east-1
 export AWS_PROFILE=default
 export JWT_SECRET=mysecretstring
-export URL=http://localhost:8100
+export URL=http://localhost:4200
