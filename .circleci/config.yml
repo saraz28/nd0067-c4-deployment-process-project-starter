@@ -10,8 +10,6 @@ jobs:
     docker:
       # the base image can run most needed actions with orbs
       - image: "cimg/node:14.15"
-    environment:
-      NODE_OPTIONS: "--openssl-legacy-provider"
     steps:
       # install node and checkout code
       - node/install:
@@ -21,6 +19,7 @@ jobs:
       - run:
           name: Install Front-End Dependencies
           command: |
+            export NODE_OPTIONS=--openssl-legacy-provider
             echo "NODE --version" 
             echo $(node --version)
             echo "NPM --version" 
