@@ -8,27 +8,27 @@ This application is provided to you as an alternative starter project if you do 
 
 **AWS RDS for the database overview**
 
-![AWS-RDS](assets/Screenshot 2025-03-13 at 11.20.22 AM.png)
 
+![AWS-RDS](./assets/Screenshot%202025-03-13%20at%2011.20.22 AM.png)
 **AWS ElasticBeanstalk for the (backend) API deployment**
 
-![ElasticBeanstalk](assets/Screenshot 2025-03-16 at 12.49.26 AM.png)
+![ElasticBeanstalk](./assets/Screenshot%202025-03-16%20at%2012.49.26 AM.png)
 
 **AWS S3 for (frontend) web hosting**
 
 ##### Create a new bucket.
 
-![butbucket](assets/Screenshot 2025-03-13 at 11.19.20 AM.png)
+![butbucket](./assets/Screenshot%202025-03-13%20at%2011.19.20 AM.png)
 
 ##### This screen indicates that the upload of static files was successful.
 
-![butbucket2](./assets/Screenshot 2025-03-13 at 3.42.22 PM.png)
+![butbucket2](./assets/Screenshot%202025-03-13%20at%203.42.22 PM.png)
 
 **Successful CircleCi build**
 
-![alljobs](./assets/Screenshot 2025-03-16 at 12.41.44 AM.png)
-![build](./assets/Screenshot 2025-03-15 at 5.40.31 AM.png)
-![deploy](./assets/Screenshot 2025-03-15 at 10.59.50 PM.png)
+![alljobs](./assets/Screenshot%202025-03-16%20at%2012.41.44 AM.png)
+![build](./assets/Screenshot%202025-03-15%20at%205.40.31 AM.png)
+![deploy](./assets/Screenshot%202025-03-15%20at%2010.59.50 PM.png)
 
 ### Domains:
 
