@@ -22,4 +22,4 @@
 
 #### A diagram below giving a high-level overview of the infrastructure.
 
-![Infrastructure_description!](/assets/Infrastructure_description.png)
+![Infrastructure_description!](./assets/Infrastructure_description.png)

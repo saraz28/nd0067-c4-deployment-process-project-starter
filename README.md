@@ -22,13 +22,13 @@ This application is provided to you as an alternative starter project if you do 
 
 ##### This screen indicates that the upload of static files was successful.
 
-![butbucket2](assets/Screenshot 2025-03-13 at 3.42.22 PM.png)
+![butbucket2](./assets/Screenshot 2025-03-13 at 3.42.22 PM.png)
 
 **Successful CircleCi build**
 
-![alljobs](assets/Screenshot 2025-03-16 at 12.41.44 AM.png)
-![build](assets/Screenshot 2025-03-15 at 5.40.31 AM.png)
-![deploy](assets/Screenshot 2025-03-15 at 10.59.50 PM.png)
+![alljobs](./assets/Screenshot 2025-03-16 at 12.41.44 AM.png)
+![build](./assets/Screenshot 2025-03-15 at 5.40.31 AM.png)
+![deploy](./assets/Screenshot 2025-03-15 at 10.59.50 PM.png)
 
 ### Domains:
 
