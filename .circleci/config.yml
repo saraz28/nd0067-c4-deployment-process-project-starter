@@ -10,16 +10,28 @@ jobs:
     docker:
       # the base image can run most needed actions with orbs
       - image: "cimg/node:14.15"
+        environment:
+          NODE_OPTIONS: "--openssl-legacy-provider" # Set gl
     steps:
       # install node and checkout code
       - node/install:
           node-version: "14.15"
       - checkout
       - run:
-          name: Set NODE_OPTIONS for OpenSSL compatibility
+          name: Verify Node and NPM Versions
           command: |
-            export NODE_OPTIONS=--openssl-legacy-provider
-            echo "NODE_OPTIONS set to: $NODE_OPTIONS"
+            echo "NODE Version:"
+            node --version
+            echo "NPM Version:"
+            npm --version
+
+      - run:
+          name: Clean and Install Dependencies
+          command: |
+            rm -rf node_modules
+            rm -f package-lock.json
+            npm install
+
       # Use root level package.json to install dependencies in the frontend app
       - run:
           name: Install Front-End Dependencies
