@@ -92,7 +92,6 @@ jobs:
             eb setenv AWS_PROFILE=$AWS_PROFILE
             eb setenv JWT_SECRET=$JWT_SECRET
             eb setenv AWS_PROFILE=$AWS_PROFILE
-            eb deploy
       - run:
           name: Deploy App
           # TODO: Install, build, deploy in both apps
