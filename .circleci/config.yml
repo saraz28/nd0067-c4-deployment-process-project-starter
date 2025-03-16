@@ -82,6 +82,7 @@ jobs:
       - run:
           name: Send to Elastic Beanstalk
           command: |
+            eb init
             eb use udagram-api-dev
             eb setenv POSTGRES_USERNAME=$POSTGRES_USERNAME
             eb setenv DATABASE_PASSWORD=$DATABASE_PASSWORD
