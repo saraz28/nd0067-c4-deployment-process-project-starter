@@ -82,7 +82,7 @@ jobs:
       - run:
           name: Send to Elastic Beanstalk
           command: |
-            eb init
+            eb init -p python-3.8 udagram-api-dev --region $AWS_REGION
             eb use udagram-api-dev
             eb setenv POSTGRES_USERNAME=$POSTGRES_USERNAME
             eb setenv DATABASE_PASSWORD=$DATABASE_PASSWORD
