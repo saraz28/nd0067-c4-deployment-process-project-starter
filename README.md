@@ -8,7 +8,6 @@ This application is provided to you as an alternative starter project if you do 
 
 **AWS RDS for the database overview**
 
-
 ![AWS-RDS](./assets/Screenshot%202025-03-13%20at%2011.20.22 AM.png)
 **AWS ElasticBeanstalk for the (backend) API deployment**
 
@@ -29,6 +28,10 @@ This application is provided to you as an alternative starter project if you do 
 ![alljobs](./assets/Screenshot%202025-03-16%20at%2012.41.44 AM.png)
 ![build](./assets/Screenshot%202025-03-15%20at%205.40.31 AM.png)
 ![deploy](./assets/Screenshot%202025-03-15%20at%2010.59.50 PM.png)
+
+**Environment Variables**
+
+![env](./assets/environment_variables.png)
 
 ### Domains:
 
